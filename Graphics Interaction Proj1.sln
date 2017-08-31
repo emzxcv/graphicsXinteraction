@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics Interaction Proj1.CSharp.Plugins", "Graphics Interaction Proj1.CSharp.Plugins.csproj", "{9C0CBC1D-4259-6ED2-65B8-60FF02399ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics Interaction Proj1.CSharp", "Graphics Interaction Proj1.CSharp.csproj", "{BFDF3FF8-5546-AE70-75AA-0C46B2131267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0CBC1D-4259-6ED2-65B8-60FF02399ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0CBC1D-4259-6ED2-65B8-60FF02399ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0CBC1D-4259-6ED2-65B8-60FF02399ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0CBC1D-4259-6ED2-65B8-60FF02399ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDF3FF8-5546-AE70-75AA-0C46B2131267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDF3FF8-5546-AE70-75AA-0C46B2131267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDF3FF8-5546-AE70-75AA-0C46B2131267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDF3FF8-5546-AE70-75AA-0C46B2131267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
