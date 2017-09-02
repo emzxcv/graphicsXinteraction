@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f212ae6e42b1e4530995ff28abd7d5a6, type: 3}
+  m_Name: Default Texture
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  baseColours:
+  - {r: 0.875, g: 0.057904415, b: 0.057904415, a: 0}
+  - {r: 0.07396196, g: 0.83823526, b: 0.11085797, a: 0}
+  baseStartHeights:
+  - 0.252
+  - 0.518
