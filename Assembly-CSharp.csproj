@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32CBB38D-22AF-74E6-FB6F-9C1D0A1514A6}</ProjectGuid>
+    <ProjectGuid>{4DE9A609-BE47-A4F1-B438-DECB53F5A06A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,13 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Data\UpdatableData.cs" />
-     <Compile Include="Assets\Terrain Assets\TerrainData.cs" />
-     <Compile Include="Assets\Terrain Assets\TextureData.cs" />
+     <Compile Include="Assets\Lighting\spinning.cs" />
      <Compile Include="Assets\testMove.cs" />
-     <None Include="Assets\Terrain Assets\PhongShader.shader" />
-     <None Include="Assets\Lighting\BasicLightingPerVertex.shader" />
-     <None Include="Assets\Terrain Assets\Terrain.shader" />
+     <None Include="Assets\Lighting\PhongIllumination.shader" />
+     <None Include="Assets\Terrain Assets\HeightDependentTint.shader" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>

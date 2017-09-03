@@ -4,7 +4,11 @@ var divisions : int;
 var size : float;
 var height : float;
 var terrainData : TerrainData;
-//var textureData : TextureData = GetComponent.<TextureData>();
+var meshCollider: MeshCollider;
+var meshRenderer : MeshRenderer;
+var meshFilder : MeshFilter;
+var meshObject: GameObject;
+//var textureData : TextureData;
 
 private var vertices : Vector3[];
 private var numVertices : int;
@@ -36,8 +40,14 @@ function InitTerrain() {
 
 	var mesh : Mesh = new Mesh();
 	GetComponent.<MeshFilter>().mesh = mesh;
-	GetComponent.<MeshCollider>().sharedMesh = mesh;
+	//GetComponent.<MeshCollider>().sharedMesh = mesh;
+//	GetComponent.<MeshCollider>().sharedMesh = meshCollider;
 	GetComponent.<MeshCollider>().isTrigger = true;
+
+	meshObject = new GameObject("Terrain");
+//	meshRenderer = meshObject.AddComponent<MeshRenderer>();
+//	meshFilter = meshObject.AddComponent<MeshFilter>();
+//	meshCollider = meshObject.AddComponent<MeshCollider>();
 
 	var triangleOffset : int = 0;
 
@@ -75,6 +85,9 @@ function InitTerrain() {
 
 	mesh.RecalculateBounds();
 	mesh.RecalculateNormals();
+
+	//meshCollider.sharedMesh = mesh;
+
 
 //	textureData.UpdateMeshHeights (terrainMaterial, terrainData.minHeight, terrainData.maxHeight);
 
