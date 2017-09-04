@@ -41,7 +41,7 @@
 
      void surf (Input IN, inout SurfaceOutput o) 
      {
- 		if (IN.worldPos.y >= _HeightMax)
+ 		     if (IN.worldPos.y >= _HeightMax)
             o.Albedo = _ColorMax;
         if (IN.worldPos.y <= _HeightMax)
             o.Albedo = lerp(_ColorTip.rgba, _ColorMax.rgba, (IN.worldPos.y - _HeightTip)/(_HeightMax - _HeightTip));
